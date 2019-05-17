@@ -26,11 +26,19 @@ button {
   outline: none;
   border: none;
 }
-.todo-itme {
+.todo-item {
   display: flex;
   align-items: center;
-  width: 60px;
+  justify-content: left;
+  width: calc(100% - 50px);
+  
 }
 .done {
   text-decoration: line-through;
+  color: whitesmoke;
+}
+.right-side {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
 }
